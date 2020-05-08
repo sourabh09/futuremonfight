@@ -1,7 +1,9 @@
 :root {
   --font1:'Raleway', sans-serif;
-  --font2:'Montserrat', sans-serif;
+  --font2:'Didact Gothic', sans-serif;
 }
+
+
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -9,9 +11,26 @@ html, body {
 body{
   /*background-color: #e6e6e6;*/
   background-image: url("tile.png");
+}
 
+h5{
+  padding: 10px;
+  color: #fff;
+  font-family: var(--font2);
+  margin: 0px;
+  font-weight: 600;
+  line-height: normal;
 
 }
+h4,p{
+  padding: 10px;
+  color: #fff;
+  font-family: var(--font2);
+  line-height: 1.5;
+}
+
+
+
 #refresh{
   float: right;
   cursor: pointer;
@@ -89,6 +108,7 @@ header>.fa{
   background-image:linear-gradient(-90deg, #2A2F3B,#424858);
   color: #F5F5F5;
   box-shadow: 0 12px 35px 0 rgba(0, 0, 0, 0.2), 0 16px 18px 0 rgba(0, 0, 0, 0.19);
+  font-family: 'Questrial', sans-serif;
   
 }
 .mdl-chip{
@@ -119,11 +139,7 @@ header>.fa{
 p{
   font-size: 18px;
 }
-h4,p{
-  padding: 10px;
-  color: #fff;
-  font-family: var(--font1);
-}
+
 .category{
   text-align: center;
   margin: 10px;
@@ -217,15 +233,7 @@ left: 50%;
 transform: translate(-50%, -50%);
 display: none;
 }
-h5{
-  padding: 10px;
-  color: #fff;
-  font-family: var(--font1);
-  margin: 0px;
-  font-weight: 600;
-  line-height: normal;
 
-}
 .selectedcategory{
   width: 100%;
   text-align:center;
