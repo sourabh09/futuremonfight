@@ -14,7 +14,7 @@ body{
 }
 
 h5{
-  padding: 10px;
+  padding: 7px;
   color: #fff;
   font-family: var(--font2);
   margin: 0px;
@@ -29,13 +29,19 @@ h4,p{
   line-height: 1.5;
 }
 
-
+.articles_number{
+  color: #FFF;
+  text-align: right;
+  font-family: var(--font2);
+  padding: 7px;
+  font-size: 18px;
+  font-style: italic;
+}
 
 #refresh{
   float: right;
   cursor: pointer;
 }
-
 
 .category::-webkit-scrollbar { width: 0 !important }
 .category { overflow: -moz-scrollbars-none; }
