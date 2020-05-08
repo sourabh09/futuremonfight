@@ -9,8 +9,8 @@ html, body {
     overflow-x: hidden;
 }
 body{
-  /*background-color: #e6e6e6;*/
-  background-image: url("tile.png");
+  background-color: #000;
+  /*background-image: url("tile.png");*/
 }
 
 h5{
