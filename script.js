@@ -31,6 +31,7 @@ function getData() {
             selectedcategory.setAttribute('class', 'selectedcategory')
             container.appendChild(selectedcategory)
             selectedcategory.innerHTML = category;*/
+            $(".articles_number").html("Total "+articles.length+" articles");
 
             articles.forEach(articles => {
                 //console.log(articles.title);
