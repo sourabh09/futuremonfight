@@ -1,4 +1,4 @@
-const sources = "engadget,hacker-news,techcrunch,techradar,wired,the-verge,the-next-web";
+const sources = "engadget,techcrunch,techradar,wired,the-verge,the-next-web";
 
 function getData() {
     $('.dummy').show();
@@ -31,7 +31,7 @@ function getData() {
             selectedcategory.setAttribute('class', 'selectedcategory')
             container.appendChild(selectedcategory)
             selectedcategory.innerHTML = category;*/
-            $(".articles_number").html("Total "+articles.length+" articles");
+            /*$(".articles_number").html("Total "+articles.length+" articles");*/
 
             articles.forEach(articles => {
                 //console.log(articles.title);
